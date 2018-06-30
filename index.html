@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+		<link href="css/effect.css" rel="stylesheet">
+		<link href="css/frm.css" rel="stylesheet">
+		<link href="css/home.css" rel="stylesheet">
+			<link href="https://www.w3schools.com//lib/w3.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+          </head>   	
+           
+        <div class="site-bg mySlides" style="height:100%; position:absolute; background-size:100% 100%;"></div>
+<div class="site-bg1 mySlides" style="height:100%; position:absolute; background-size:100% 100%;"></div>
+<div class="site-bg2 mySlides" style="height:100%; position:absolute; background-size:100% 100%;"></div>
+<style>
+.social-top li a{
+color:#000;
+}
+</style>
+
+<script>
+
+
+
+
+var slideIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3500); 
+}
+
+	
+
+
+  	
+		 
+		 
+
+</script>
+        
+       <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 hidden-xs">
+                        <span class="phone"><i class="fa fa-phone"></i>+91 xxxxxxxx</span>
+                    </div>
+                <div class="col-md-4 col-sm-4 col-xs-6 logo-holder" style="height:90px !important;">
+                      <a href="index.html" class="site-brand" style="color:#;"><i class="fa fa-bank" style="font-size:56px"></i></a>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6 social-icons-header">
+                        <ul class="social-top">
+						
+                         <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://in.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.youtube.com/?gl=IN"><i class="fa fa-youtube-play" ></i></a></li> 
+							
+							
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+          
+		
+	
+		
+
+       
+        <div class="menu-bottom">
+            <div class="desktop-menu hidden-xs">
+                <div class="container" style="width:;">
+                    <div class="row">           
+	<div class="nav" id="">
+      <ul class="navbar">	
+        <li class="tutorials"><a href="company/about.html">About</a></li>
+        <li class="tutorials"><a style="cursor:default;">Loans</a>
+			  <ul>
+			  <li><a href="loans/personal_loans.html">Personal Loans</a></li>
+					<li><a href="loans/home_loans.html">Home Loans</a></li>
+					<li><a href="loans/car_loans.html">Car Loans</a></li>
+					
+					<li><a href="loans/used_loans.html">Used Car Loans</a></li>
+						<li><a href="loans/mortage.html">Mortgage Loans</a></li>
+							<li><a href="loans/lap_loans.html">LAP</a></li>
+			  </ul>
+        </li>
+		  <li class="tutorials"><a href=""style="cursor:default;">Business Loans</a>
+			  <ul style="width:25%">
+					<li><a href="loans/doctor.html">Doctor Loans</a></li>
+					<li><a href="loans/firm_loans.html">Firm Loans</a></li>
+					<li><a href="loans/self_loans.html">Self-Employeed Loans</a></li>
+					<li><a href="loans/selfp_loans.html">Self-Employeed Professional </a></li>
+					<li><a href="loans/odfacility.html">OD Facility</a></li>
+					
+			  </ul>	  
+			  <li class="tutorials"><a href=""style="cursor:default;">Insurance Cards</a>
+			  <ul>
+					<li><a href="insurance/life.html">Life Insurance</a></li>
+					<li><a href="insurance/health.html">Health Insurance</a></li>
+					<li><a href="insurance/general.html">General Insurance</a></li>										
+			  </ul>
+        </li>
+      
+       <li class="tutorials"><a href=" " style="cursor:default;">Cards</a>
+				  <ul>
+					<li><a href="card/credit_card.html">Credit Card</a></li>						
+			  </ul>	   
+	   </li>          
+        </li>
+      <li class="tutorials"><a href="company/contact.html">Contact Us</a></li>		   
+      <li class="tutorials"><a href="company/login.php">Log In</a></li>		   
+      </ul>	
+	      
+
+    </div>
+	</div>
+                </div>
+            </div>
+        </div>			
+	 <body>
+	 <script>
+	 function sam()
+	 {
+	 var str=document.getElementById("reg-name").value
+	 p=/^[a-zA-Z]{5,30}$/;
+     var r=new RegExp(p);
+	 if(r.test(str))
+	 {
+	 alert(str);
+	 }
+ 	  </script>
+	 
+ <div class="container-fluid" style="background: rgba(138, 155, 162, 0.45);
+  position: relative;
+  z-index: 1; padding-bottom:1em;height:110%;" >
+        <div class="" id="page-content" style=" margin-top:0px;">
+            <div class="content-holder" >                
+                <div id="menu-container">                   
+			
+	
+	 
+                    <div id="menu-1" class="homepage home-section text-center"> 
+						
+						<div class="row" style="margin-left:%; z-index:22;"  >		
+						
+						  <div class="hi-icon-wrap hi-icon-effect-8 col-md-7" id="animationdiv" style="margin-top:1em;" >
+						  <div class="col-md-6 col-xs-6"> <img src="img/calci1.png"></div>
+						  <div class="col-md-6 col-xs-6"> <img src="img/schedule3.PNG"></div>
+							  <h2 style="color:#0162af;" id="mainh1">Banking</h2>
+						  <h2 style="color:;"> Best Loans Aplication</h2>
+						  <br>   
+     <div class="col-md-3 col-xs-6 col-sm-6">  
+		<a href="#" class="hi-icon hi-icon-bookmark col-xs-3"  style="background-color:#de6d75 ;"><img src="images/home21.png" style="margin-top:2em !important; "></a>
+	 </div>   
+    <div class="col-md-3 col-xs-6 col-sm-6 "> 
+		<a href="#" class="hi-icon hi-icon-archive col-xs-3" style="background-color:#776fce;" ><img src="images/home.png"></a> 
+	</div>
+		 <div class="col-md-3 col-xs-6 col-sm-6">  
+			<a href="#" class="hi-icon hi-icon-chat col-xs-3" style="background-color:#42ceb2"><img src="images/home11.png"></a>
+		</div> 	  
+	   <div class="col-md-3 col-xs-6 col-sm-6">  
+	   <a href="#" class="hi-icon hi-icon-chat col-xs-3" style="background-color:#e6a65a"><img src="images/home41.png"></a>
+   </div>	   
+	    <div class="col-md-3 col-xs-6 col-sm-6">   
+		<a href="#" class="hi-icon hi-icon-bookmark col-xs-3" style="background-color:#d9679c"><img src="images/home51.png"></a>
+	 </div>
+	 <div class="col-md-3 col-xs-6 col-sm-6">   
+	 <a href="#" class="hi-icon hi-icon-bookmark col-xs-3" style="background-color:pink"><img src="images/home10.png"></a>
+	 </div> 
+  <div class="col-md-3 col-xs-6 col-sm-6">  
+  <a href="#" class="hi-icon hi-icon-bookmark col-xs-3"  style="background-color:#73de73 ;"><img src="images/health.png" style="margin-top:2em !important; "></a>
+	 </div>	  
+	   <div class="col-md-3 col-xs-6 col-sm-6">  
+	   <a href="#" class="hi-icon hi-icon-chat col-xs-3" style="background-color:#45c6ba"><img src="images/life.png"></a>
+   </div>
+ <br> <br>
+ <div class="row"style="margin-top: 16em;">
+ 
+
+						     <div class="col-md-6 col-xs-6">
+				    <b style="color:#fff;" class="footernav"> <i class="fa fa-university" ></i> Banks</b>
+				   </div>				   
+				     <div class="col-md-6 col-xs-6">
+					 <b  style="color:#fff;" class="footernav"> <i class="fa fa-calendar" ></i> Fast Approvals</b>
+				   </div>
+				     <div class="col-md-6 col-xs-6">
+					 <b  style="color:#fff;" class="footernav"> <i class="fa fa-users" ></i> Happy Customers</b>
+				   </div>
+				     <div class="col-md-6 col-xs-6">
+					 	<b  style="color:#fff;" class="footernav"><i class="fa fa-shopping-basket" ></i> Exclusive Offers & Rates</b>
+				   </div>			
+					</div>    
+	 </div>
+ <div class="col-sm-12 col-md-5">
+ <style type="text/css">
+ div#tab button.active{
+    background-color:#eba161 !important;	
+}
+#result,#result1,#result2{
+font-size:14px;
+}
+ </style> 
+ <div id="tab">
+		 <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#regfrom">Apply Loans</a></li>
+    <li><a data-toggle="tab" href="#comform">Complaint Box</a></li>
+    <li><a data-toggle="tab" href="#feedform">Feedback </a></li>
+  
+  
+  </ul>
+ </div> 
+<div class="tab-content">
+ <div id="regfrom"  class="tab-pane fade in active">
+ 
+   <form id="regfrom_submit" method="post"  name="regfrom_submit" action="insert.php">	   
+   <div id="text"> </div>
+   <div class="contentform " style="">    	
+<div class="leftcontact col-sm-12 ">
+			      <div class="form-group">			      
+			        <span class="icon-case"><i class="fa fa-university" ></i></span>
+				     <select id="reg-loans"  name="reg_loans"   required>
+						 <option value="" >Select Loans</option>
+						   <option value="Personal Loans" id="personal-loans" name="personal_loans">Personal Loans</option>
+						   <option value="Car Loans" id="car-loans" name="car_loans">Car Loans</option>
+						  <option value="Home Loans" id="home-loans"  name="home_loans">Home Loans</option>
+						  <option value="Used Car Loans" id="usedcar-loans" name="usedcar_loans" >Used Car Loans</option>
+						  <option value="Mortgage Loans" id="mortgage-Loans" name="mortgage_Loans">Mortgage Loans</option>
+						  	  <option value="LAP" id="lap" name="lap">LAP </option>
+							  <option value="Doctor Loans" id="Doctor-Loans" name="Doctor_Loans">Doctor Loans </option>
+						  	  <option value="Company Loans" id="Company-Loans" name="Company_Loans">Company Loans </option>						  					
+					
+						</select>
+					
+       </div> 
+            <div class="form-group">           
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="reg_name"   placeholder="Name"maxlength="30"  minlength="3" maxlength="30"  required/>
+             
+			 
+			</div>
+			<div class="form-group">
+<p id="result" style="color:"></p>			
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+			
+                <input type="email" name="reg_email"   placeholder="E-mail" minlength="4" maxlength="30"  required/>
+               
+			</div>	
+			</div>
+	<div class="rightcontact  col-sm-12">
+		<div class="form-group">			
+			<span class="icon-case"><i class="fa fa-phone"></i></span>
+				<input type="text" name="reg_phone"   placeholder="Phone number" maxlength="10" minlength="10"   required />
+               
+			</div>
+			<div class="form-group">		
+			<span class="icon-case"><i class="fa fa-home"></i></span>
+				<input type="text" name="reg_company"    placeholder="Company" minlength="3" maxlength="30"    required />
+                
+			</div>	
+		<div class="form-group">			
+			<span class="icon-case"><i class="fa fa-building-o"></i></span>
+				<select  name="reg_city" style="z-index:; height:;"  required >
+<option value="">Select City</option>
+						
+						   <option value="hyderabad" id="reg-hyderabad" name="reg_hyderabad">Hyderabad</option>
+						   <option value="vijayawada" id="reg-vijyawada" name="reg_vijyawada">Vijayawada</option>
+						    <option value="delhi" id="reg-delhi" name="reg_delhi"> Vizag</option>		
+							 <option value="delhi" id="reg-delhi" name="reg_delhi"> Chennai</option>	
+																 
+						 <option value="bangalore" id="reg-bangalore" name="reg-bangalore">Bangalore</option>
+						  <option value="delhi" id="reg-delhi" name="reg_delhi"> Pune</option>		
+						  <option value="mumbai" id="reg-mumbai" name="reg_mumbai">Mumbai</option>
+						  <option value="delhi" id="reg-delhi" name="reg_delhi"> Delhi</option>				  	 
+						</select>
+                
+			</div>		
+	</div>
+
+	
+<button type="submit" id="reg-submit" name="reg_submit" class="bouton-contact submit btn btn-info btn-lg" data-toggle="modal"  style="width: !important;">Join Now</button>
+	</form>	
+</div>
+</div>
+<div id="comform" style="display:" class=" tab-pane fade">
+  <form id="comfrom_submit" method="post"  name="comfrom_submit" action="insert1.php">
+	  <div id="text1"> </div>
+    <div class="contentform" >    	
+<div class="leftcontact">		     
+            <div class="form-group">           
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="com_name" id="com_name" placeholder="Name" maxlength="30" required/>
+               
+			</div>
+			<div class="form-group">	
+<p id="result1" style="color:"></p>			
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="email" name="com_email" id="com-email"   placeholder="E-mail" maxlength="30"  required/>
+               
+			</div>	
+	<div class="form-group">		
+			<span class="icon-case"><i class="fa fa-building-o"></i></span>
+				<input type="text" name="com_phone" id="com-phone"   placeholder="Phone Number" maxlength="10" minlength="10"   required/>
+               
+			</div>	
+	</div>
+	<div class="rightcontact">
+	<div class="form-group">			
+				<span class="icon-case"><i class="fa fa-building-o"></i></span>
+				<select name="com_loans"  placeholder="Select Complaint Type" required>
+						  
+						   <option value="com-personalloans" id="" name="com-personalloans">Personal Loans</option>
+						   <option value="com-carloans" id="" name="com_carloans">Car Loans</option>
+						  <option value="com-homeloans" id="" name="com_homeloans">Home Loans</option>
+						  <option value="com-carloans" id="" name="com_carloans">Used Car Loans</option>
+						  <option value="com-mortgage" id="" name="com_mortgage">Mortgage Loans</option>
+						  	  <option value="com-lap" id="" name="com_lap">LAP </option>						  					
+					  <option value="com-Doctor-Loans" id="" name="com_Doctor_Loans">Doctor Loans </option>
+						  	  <option value="com-company-Loans" id="" name="com_company_Loans">Company Loans </option>						  					
+					
+
+					</select>
+               
+				</div>		
+			<div class="form-group">			
+			<span class="icon-case"><i class="fa fa-comments-o"></i></span>			
+                 <textarea name="com_comment" id="com-comment" rows="14"  placeholder="Comments here..." maxlength="300" required /></textarea>
+               
+			</div> 	
+	</div>
+	</div>
+<button type="submit" id="com_submit" name="com_submit" class="bouton-contact submit">Send</button>	
+</form>	
+</div>
+<div id="feedform" style="display:" class=" tab-pane fade">
+<form id="feedfrom_submit" method="post"  name="fedfrom_submit" action="insert2.php">
+	   <div id="text2"> </div>
+    <div class="contentform" >    	
+<div class="leftcontact">		     
+            <div class="form-group">            
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="fed_name" id="fed_name"   placeholder="Name " maxlength="30"  required/>
+                
+			</div>
+			<div class="form-group">		
+<p id="result2" style="color:"></p>			
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="email" name="fed_email" id="feed-email"    placeholder="E-mail"  maxlength="30" required/>
+               
+			</div>	
+	<div class="form-group">			
+			<span class="icon-case"><i class="fa fa-building-o"></i></span>
+				<input type="text" name="fed_phone" id="feed_phone"    placeholder="Phone Number " maxlength="10"  minlength="10" required/>
+
+			</div>	
+	</div>
+	<div class="rightcontact">				
+	<div class="form-group">			
+			<span class="icon-case"><i class="fa fa-comments-o"></i></span>
+                <textarea name="fed_comment"  id="fed_comment"rows="14"   maxlength="300" placeholder="Comments Here... " required></textarea>
+              
+			</div> 	
+	</div>
+	</div>	
+	
+<button type="submit" id="fed_submit" name="fed_submit" class="bouton-contact submit">Send</button>
+</form>
+</div>
+
+ </div>
+  </div>
+						</div>                     
+                    </div>			                
+                </div>
+            </div>
+        </div>
+  </div>
+  <div class="footer" style="background-color:rgba(138, 155, 162, 0.45) !important; color:#000 !important; padding:5px;padding-bottom:1em;">
+	 	  <marquee behavior=""> <div id="mar">
+	    <style>
+  .img222{
+ //  border: 2px solid;
+  border-radius: 50% !important;
+  padding-left:4px;
+  }  
+  </style>	  
+	   <span class="mar">
+	  <a href="#"> <img src="img/footerslide1.png" style="margin-top: !important;  " class="img222"></a> 
+	  </span>	  
+	  <span class="mar">
+<a href="#"><img src="img/footerslide.png" class="img222"></a> 
+	  </span>
+   <span class="mar">
+   <a href="#"> <img src="img/footerslide2.png" class="img222"></a> 
+ 	  </span>
+   <span class="mar">
+   <a href="#"> <img src="img/footerslide3.png" class="img222"></a> 
+ 	  </span>
+ 	  <span class="mar">
+	  <a href="#"><img src="img/footerslide4.png" class="img222"></a> 
+  	  </span>
+	    <span class="mar">
+		<a href="#"><img src="img/footerslide5.png" class="img222"></a>   
+	  </span>
+	   </div></marquee>	   
+            <div class="text-center">
+                <p class="copyright-text" style="color:#000 !important;"><b style="font-size:16px !important; ">Copyright &copy; 2018 Banking</b></p>
+            </div>
+		 <div class="container">			
+				   	<div class="row" style="background-color: !important;" >			
+			    <div class="col-md-2 col-xs-6">
+					 <b  style="color:#000; font-size:15px !important;"> <i class="fa fa-users" ></i> Personal Loans</b>
+				   </div>
+			     <div class="col-md-2 col-xs-6">
+				    <b style="color:#000;font-size:15px !important; "> <i class="fa fa-university" ></i> Home Loans</b>
+				   </div>				   
+				     <div class="col-md-2 col-xs-6">
+					 <b  style="color:#000; font-size:15px !important;"> <i class="fa fa-car" ></i> Car Loans</b>
+				   </div>				 
+				     <div class="col-md-2 col-xs-6">
+					 	<b  style="color:#000;font-size:15px !important;"><i class="fa fa-cc-mastercard" ></i> Business Loans</b>
+				   </div>
+				     <div class="col-md-2 col-xs-6">
+					 	<b  style="color:#000; font-size:15px !important;"><i class="fa fa-car" "></i> Used Car Loans</b>
+				   </div>		
+				 <div class="col-md-2 col-xs-6">
+					 <b  style="color:#000;font-size:15px !important;"> <i class="fa fa-credit-card"></i> Credit Cards</b>
+				   </div>				   
+					</div>
+			</div>
+			<br>
+			<div class="text-center">			
+               <h2 style="font-size:20px; color:#000; padding:5px;">Help us spread the Word</h2>   
+<h4 style="font-size:16px; color:#000; padding:5px;">Follow, like, tweet or post. We Would love to interact with you</h4>
+<a href="https://www.facebook.com/"><img src="images/fa.png" alt="" /></a>
+<a href="https://twitter.com"><img src="images/twit.png" alt="" /></a>
+<a href="https://in.linkedin.com/"><img src="images/link.png" alt="" /></a>
+<a href="https://www.youtube.com/"><img src="images/youtube.png" alt="" /></a>  
+<a href="mailto:info@banking.com" target="_top"><p style="padding:7px 0px;" ><b class=""><i class="fa fa-envelope-o" aria-hidden="true"></i> info@banking.com</b></p></a>
+		</div>		
+		<style>
+		.text-center a:hover{
+		color:#000;
+		}
+		span b{
+		padding:1em;
+		}
+		h3{
+		color:#000;
+		}
+		.submit{
+		width:70% !important;
+	
+	display:inline;
+		}
+	
+		</style>
+		<div class="text-center" >	
+<a href="index.html"><span> <b style="font-size:16px !important; ">Home</b></span></a>		
+		<a href="company/about.html"><span> <b style="font-size:16px !important; ">About</b></span></a>
+	<a href="company/contact.html">	<span> <b style="font-size:16px !important; ">Contact us</b></span></a>
+			</div>
+		</div>
+		   <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/min/plugins.min.js"></script>
+        <script src="js/min/main.min.js"></script>		
+				
+    </body>
+	
+</html>
